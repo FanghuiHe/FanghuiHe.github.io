@@ -1,0 +1,29 @@
+body{	
+	/* background-color: #f1f2d3; */
+	/* text-align: center; */
+
+	color:#05292d;
+	font-family: "Times New Roman", Times, serif;
+	height:100%; 
+	background-position:center;
+	background-size:cover;
+	background-image: url("background.jpg");
+	/* center: center fixed; */
+	background-repeat: no-repeat;
+	/* background-size:100%-100%;  */
+}
+hi{
+	text-align:center;
+}
+div{
+	text-align: center;
+}
+ul {
+	text-align: center-left;
+    width: 50%; 
+    margin: auto;
+}
+li{
+	text-align: center-left;
+	width:100%; 
+}

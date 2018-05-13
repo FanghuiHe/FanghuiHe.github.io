@@ -1,0 +1,14 @@
+body{	
+	background-color: #white;
+	/* text-align: center; */
+	color:#00765;
+	font-family: "Arial", Times, serif;
+}
+div{
+	text-align: center;
+}
+ul {
+	text-align: right-side;
+    width: 30%;
+    margin: auto;
+}
