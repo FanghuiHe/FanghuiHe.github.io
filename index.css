@@ -1,9 +1,10 @@
 body{	
 	/* background-color: #f1f2d3; */
 	/* text-align: center; */
-
+	/* opacity:0.5; */
 	color:#05292d;
 	font-family: "Times New Roman", Times, serif;
+	font-size:20px;
 	height:100%; 
 	background-position:center;
 	background-size:cover;
@@ -12,18 +13,91 @@ body{
 	background-repeat: no-repeat;
 	/* background-size:100%-100%;  */
 }
-hi{
+img{
+	opacity:0.5;
+}
+.header {
 	text-align:center;
 }
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: center;
+    display: inline-table;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #0e3845;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 20%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 55%;
+	text-align: left;
+	margin: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.middle, .column.side {
+        width: 100%;
+    }
+}
+/* h2{ */
+	/* color: #70858b; */
+/* } */
 div{
 	text-align: center;
 }
-ul {
-	text-align: center-left;
-    width: 50%; 
-    margin: auto;
+.transbox {
+  margin: 0px;
+  background-color:rgba(255,255,255,0.8);
+  /* background-color: #ffffff; */
+  /* border: 1px solid #2a687c; */
+  /* opacity: 0.6; */
+  /* filter: alpha(opacity=60); /* For IE8 and earlier */ */
 }
-li{
-	text-align: center-left;
-	width:100%; 
+div.transbox ul {
+  text-align:left;
+  margin: 5px;
+
+  /* font-weight: bold; */
+  color: #000000; 
 }
+/* ul { */
+	/* text-align: center-left; */
+    /* width: 50%;  */
+    /* margin: auto; */
+/* } */
+li{ 
+	text-align: center-left;
+	width:100%;
+} 
