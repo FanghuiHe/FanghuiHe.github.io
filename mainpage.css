@@ -1,0 +1,106 @@
+body{	
+	/* background-color: #f1f2d3; */
+	/* text-align: center; */
+	/* opacity:0.5; */
+	background-color:#000000;
+	font-family: "Times New Roman", Times, serif;
+	font-size:20px;
+	color:#f2f2f2;
+	/* height:100%;  */
+	/* background-position:center; */
+	/* background-size:cover; */
+	/* background-image: url("background.jpg"); */
+	/* center: center fixed; */
+	/* background-repeat: no-repeat; */
+	/* background-size:100%-100%;  */
+}
+.header {
+	text-align:center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: center;
+    display: inline-table;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #0e3845;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+	color:#dddcee;
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 70%;
+	text-align: left;
+	/* margin: auto; */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: inline-table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.middle, .column.side {
+        width: 100%;
+    }
+}
+h2{ 
+	color:#dddcee;
+	text-align:left;
+	margin-left: 40px;
+	margin-bottom:10px;
+	
+} 
+div{
+	text-align: center;
+}
+.transbox {
+  margin: 0px;
+  background-color:#333;
+  /* rgba(255,255,255,0.7); */
+  background-image: url("planks.jpg") center center cover no-repeat fixed; 
+  /* border: 1px solid #2a687c; */
+  /* opacity: 0.6; */
+  /* filter: alpha(opacity=60); /* For IE8 and earlier */ */
+}
+div.transbox .ul {
+  text-align:left;
+  margin: 5px;
+  /* font-weight: bold; */
+  color: #dddcee; 
+}
+ul { 
+	text-align: left; 
+    width: 100%;  
+	margin: auto; 
+} 
+li{ 
+	text-align: center-left;
+	width:100%;
+} 
