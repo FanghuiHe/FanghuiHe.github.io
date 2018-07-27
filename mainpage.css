@@ -44,13 +44,22 @@ body{
 .column.side {
 	color:#000000;
     width: 25%;
+	transition:width ease 0.5s;
 }
 
 /* Middle column */
 .column.middle {
     width: 70%;
 	text-align: left;
+	transition:width ease 0.5s;
 	/* margin: auto; */
+}
+
+.column .side:hover{
+	width:40%;
+}
+.column .side:hover + .column.middle{
+	width:50%;
 }
 
 /* Clear floats after the columns */
