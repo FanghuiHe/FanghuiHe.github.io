@@ -4,29 +4,35 @@
 <link rel = "stylesheet" type = "text/css" href = "mainpage.css">
 </head>
 <body>
+
+<div class="topnav">
+  <a href = "index.html"> Cover </a>
+  <a href = "FH Resume.pdf"> Resume </a>
+  <a href = "https://github.com/FanghuiHe"> Github </a>
+  <a href="Contact.html">Contact</a>
+</div>
 <div class="header">
-<div class="transbox">
  <h1> Fanghui He</h1>
  <h3> Smith College 2021</br>Computer Science & Economics</h3>
 </div>
-</div>
-<div class="topnav">
-  <a href = "Resume.pdf"> Resume </a>
-  <a href = "https://github.com/FanghuiHe"> Github </a>
-  <a href="#">Diary</a>
-</div>
 <div class="row">
   <div class="column side">
+  <div onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="board2.jpg" alt="Smiley" width="32" height="32">
   <div class="transbox">
     <h2>Introduction</h2>
-	<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="planks.jpg" alt="Smiley" width="32" height="32">
-    <ul>
+	<ul>
 		<li>Interests
-			<ul><li>Coding</li>
+			<ul><li>Coding (wasting time doing nothing)</li>
 			<li>Listening to music</li>
 			<li>Writing</li></ul>
 		</li>
+		<li>Skills
+			<ul><li>PYTHON</li>
+			<li>JAVA</li>
+			<li>Guitar</li></ul>
+		</li>
 	</ul>
+  </div>
   </div>
   </div>
   <div class="column middle">
@@ -34,11 +40,11 @@
   	<h2>Diary</h2>
 		<ul>In progress
 			<ul><li> 06/2018 to now
-					<ul><li> Intern-Data Analyst in Morningstar</li></ul>
+					<ul><li> Intern-Data Analyst at Morningstar</li></ul>
 					<ul><li> Learning guitar</li></ul>
 					<ul><li> Self-learning: 
-						<ul><li>Pivot table</li></ul>
-						<ul><li> PHP</li></ul>
+						<ul><li>Excel (Macro & Pivot Table)</li></ul>
+						<ul><li> JS & CSS </li></ul>
 						<ul><li> Stock market and technical analysis </li></ul>
 					</li></ul>
 				</li></ul>
@@ -49,8 +55,9 @@
 				</li>
 			</ul>
 		</ul>
-		<ul>Finished
+	<h2>Finished</h2>
 			<ul><li> 05/2018
+					<ul><li> DA Intern Code </li></ul>
 					<ul>
 					<li> CSC220 Final project: Major Pathway</li>
 					</ul>
@@ -60,7 +67,8 @@
   </div>
 </div>
 <script>
-function bigImg(x) {
+
+/*function bigImg(x) {
     x.style.height = "32px";
     x.style.width = "64px";
 }
@@ -68,6 +76,9 @@ function bigImg(x) {
 function normalImg(x) {
     x.style.height = "32px";
     x.style.width = "32px";
+}*/
+function bigDic(x){
+	css("width","30%")
 }
 </script>
 </body>
