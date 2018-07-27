@@ -2,19 +2,20 @@
 <!-->Still in progress<!-->
 	<head>
 		<style>
-			/*background from https://unsplash.com/search/photos/background*/
-			html{
-				height:100%;
-			}
+			/* all background pictures are from https://unsplash.com/search/photos/background*/
 			body{
 				/*shorthand is background:url("NYSE.jpg") center center cover no-repeat fixed*/
 				background:url("brick.jpg") no-repeat;
 				background-position:center center;
 				background-size:cover;
 				background-attachment:fixed;
-				height:100%;
 				background-color:black;
 			}
+			/*#wrapper{
+				position:absolute;
+				white-space:nowrap;
+				overflow:hidden;
+			}*/
 			@media only screen and (max-width: 767px) {
 				body {
 				/* provide a smaller pic */
@@ -27,16 +28,21 @@
 			      filter: blur(5px);
 			      transform: scale(1) translateY(5px);*/
 				position:absolute;
-				width:800px;
-				height:100%;
-				left:60%;
-				top:0%;
+				height:750px;
+				width:1000px;;
+				left:900px;;
+				top:0;
+				transition: left ease 0.5s;
+			}
+			.container:hover{
+				left:500px;
 			}
 			.image1{
 				position:absolute;
 				width:auto;
 				height:100%;
 				z-index:-1;
+				
 			}
 			a:link{
 				left:50px;
@@ -49,18 +55,19 @@
 				font: bold 30px Sans-Serif;
 			}
 			.container .title{
+				text-align:left;
 				position:absolute;
-				top:35%;
+				top:20%;
 				left:10%;
-				font: bold 50px Helvetica;
 				text-indent:-1em;
+				font: bold 50px Helvetica;
 				color:white;
 				letter-spacing:-1px;				
 			}
 			.container .photo{
 				position:absolute;
 				top:10%;
-				left:50%;
+				left:700px;
 				height:200px;
 				width:150px;
 				color:white;
@@ -78,18 +85,19 @@
 			}
 			h2 { 
 			   position: relative; 
-			   top: 250px; 
-			   left:5px; 
-			   width: 100%; 
+			   top: 200px; 
+			   left:120px; 
+
 			}
 			h2 span { 
-			   box-shadow: 40px -25px 15px #1d3a48c7;
+			   box-shadow: 40px -25px 20px #1d3a48c7;
 			   color: white; 
-			   font: bold 200px/250px Helvetica, Sans-Serif; 
+			   font: bold 150px/180px Helvetica, Sans-Serif; 
 			   letter-spacing: -1px;  
-			   background: rgb(0, 0, 0); /* fallback color */
 			   background: rgba(0, 0, 0, 0.7);
-			   padding: 0 25%; 
+			   position:absolute;
+			   left:10px;
+			   padding: 5 25%; 
 			}
 			h2 span:hover{
 			   opacity: 0.8;
@@ -104,14 +112,15 @@
 		</style>
 	</head>
 	<body>
+		
 		<div class="rotate">
 		<h2><span>WELCOME</span></h2></div>
 		<div class = "container">
-			<div class="title">FANGHUI HE</br>Smith College 2021er</br></br>Economics</br>Computer Science</div>
+			<div class="title">FANGHUI HE</br>Smith College 2021er</br></br></br></br></br>Economics</br>Computer Science</div>
 			<img class="image1" src="board.jpg"/>
-			<div class="photo">PHOTO</div>
+			<div class="photo">PHOTO (NOT READY YET :) )</div>
 			<a href = "mainpage.html">KNOW ABOUT ME</a>
-
+		
 		</div>
 	</body>
 </html>
